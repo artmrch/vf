@@ -1,0 +1,33 @@
+# Build files and binaries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Common build directories
+build/
+Builds/
+bin/
+dist/
+
+# OS and editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+
+# IDEs
+.idea/
+.vscode/
+
+# JUCE junk (if used)
+*.jucer
+*.xcodeproj
+*.sln
+*.vcxproj*
